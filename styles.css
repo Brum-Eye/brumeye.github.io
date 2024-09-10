@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #000000; 
+    color: #ffffff; 
+    padding: 10px; 
+    font-family: 'Moderustic', sans-serif;
+    color: #ffffff;
+}
+
+.nav-left, .nav-right {
+    display: flex; 
+}
+
+nav a {
+    color: #ffffff; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+
+footer {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: #000000; 
+    color: #ffffff;
+    text-align: center; 
+    position: relative; 
+}
+
+.splash h1 {
+    font-family: 'Moderustic', sans-serif;
+    color: #333333;
+}
+
+.splash img {
+    border: 5px solid #333; 
+    border-radius: 50%; 
+    width: 200px;
+    height: auto;
+}
+
+.address {
+    font-size: 1.5em; 
+    color: #555; 
+    margin-bottom: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.tags {
+    font-size: 0.9em; 
+    color: #333; 
+    line-height: 1.6; 
+    font-family: 'Roboto', sans-serif; 
+    margin-bottom: 20px; 
+}
+
+hr {
+    border: 0; 
+    height: 2px; 
+    background-color: #333; 
+
+}
+
+.others h2 {
+    font-family: 'Moderustic', sans-serif;
+    color: #333333;
+}
+
+.others p {
+    font-family: 'Moderustic', sans-serif;
+    color: #333333;
+}
+
+.others ul li {
+    font-family: 'Moderustic', sans-serif;
+    color: #333333; 
+    padding: 10px 0; 
+    border-bottom: 1px solid #555; 
+}
+
+.others dl {
+    display: grid;
+    font-family: 'Moderustic', sans-serif;
+    color: #333333;
+    grid-template-columns: auto 1fr;
+}
+
+
+.others dt {
+    font-family: 'Moderustic', sans-serif;
+    color: #333333;
+}
+
+
+.others dd {
+    font-family: 'Moderustic', sans-serif;
+    color: #333333;
+}
+
+a {
+    color: blue; 
+    text-decoration: none; 
+    font-family: 'Moderustic', sans-serif;
+}
+
+a:hover {
+    color: #43d925; 
+    background-color: #000000; 
+    text-decoration: none;
+}
+
+.three-col {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.card {
+    background-color: #ffffff; 
+    border: 1px solid #000000; 
+    padding: 10px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card img{
+    width: 100px;
+    height: auto;
+}
+
+.one-col {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-family: 'Moderustic', sans-serif;
+    color: #333333;
+}
+
+.contact h1 {
+    font-family: 'Moderustic', sans-serif;
+    color: #333333;
+}
